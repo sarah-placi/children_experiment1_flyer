@@ -19,15 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -44,6 +35,11 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -56,6 +52,32 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
 
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
@@ -67,6 +89,10 @@ if (window.hljs) {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -83,9 +109,6 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
-pre code {
-  padding: 0;
-}
 </style>
 
 
@@ -98,6 +121,7 @@ pre code {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
+  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -161,7 +185,7 @@ pre code {
 
 
 
-<div id="header">
+<div class="fluid-row" id="header">
 
 
 
@@ -170,10 +194,7 @@ pre code {
 
 
 <p><br></p>
-<div class="figure">
-<img src="images/logo_bambini.PNG" style="width:100.0%" />
-
-</div>
+<p><img src="images/logo_bambini.PNG" style="width:100.0%" /></p>
 <p><br></p>
 <div id="studio-sul-ragionamento-nei-bambini" class="section level1">
 <h1>STUDIO SUL RAGIONAMENTO NEI BAMBINI</h1>
@@ -186,16 +207,16 @@ pre code {
 <p><br></p>
 <p>Siamo un gruppo di ricercatrici del <strong>Centro Interdipartimentale Mente/Cervello</strong> dell’<strong>Università di Trento</strong> che studiano il ragionamento negli adulti e nei bambini. In questo periodo (Autunno 2021), stiamo cercando partecipanti <strong>tra i 3 anni (compiuti) e i 6 anni (non</strong> ancora <strong>compiuti</strong>) disponibili a prendere parte a uno studio (con finalità esclusivamente scientifiche) da casa, attraverso Zoom (una piattaforma web gratuita e comunemente utilizzata per videoconferenze), in una data convenuta con i genitori e in presenza di uno di essi. Per partecipare, è necessario che i bambini siano madrelingua italiana, e che il genitore presente durante l’esperimento capisca bene l’italiano.</p>
 <p>Lo studio riguarda la capacità dei bambini di effettuare confronti tra proporzioni. A tale scopo, abbiamo creato <strong>un gioco al computer</strong> che dura circa <strong>20 minuti</strong>. Nel corso di questo gioco, i bambini vedranno un’animazione con delle urne che contengono una diversa proporzione di palline di vari colori e faranno delle previsioni sul colore delle palline che verranno estratte da tali urne. Ogni volta che la loro previsione si rivelerà corretta, vinceranno degli stickers.</p>
-<p>Se siete interessati a partecipare a questo studio, o anche solo se volete saperne di più per decidere se partecipare o meno, mandate una <strong>mail all’indirizzo</strong> <a href="mailto:sarah.placi@unitn.it">sarah.placi@unitn.it</a> e riceverete le istruzioni per un breve incontro su Zoom o Skype in cui vi spiegheremo nel dettaglio lo scopo scientifico dello studio e come avverrà la raccolta dei dati. Saremo anche a disposizione per rispondere a tutte le vostre domande e potrete eventualmente prenotare il giorno e l’ora in cui preferite far partecipare vostro/a figlio/a.</p>
+<p>Se siete interessati a partecipare a questo studio, o anche solo se volete saperne di più per decidere se partecipare o meno, mandate una <strong>mail all’indirizzo</strong> <a href="mailto:sarah.placi@unitn.it" class="email">sarah.placi@unitn.it</a> e riceverete le istruzioni per un breve incontro su Zoom o Skype in cui vi spiegheremo nel dettaglio lo scopo scientifico dello studio e come avverrà la raccolta dei dati. Saremo anche a disposizione per rispondere a tutte le vostre domande e potrete eventualmente prenotare il giorno e l’ora in cui preferite far partecipare vostro/a figlio/a.</p>
 <p><br></p>
 <p style="text-align:right;">
-Dott.ssa SARAH PLACI (<a href="mailto:sarah.placi@unitn.it">sarah.placi@unitn.it</a>)
+Dott.ssa SARAH PLACI (<a href="mailto:sarah.placi@unitn.it" class="email">sarah.placi@unitn.it</a>)
 </p>
 <p style="text-align:right;">
-Dott.ssa STEFANIA PIGHIN (<a href="mailto:stefania.pighin@unitn.it">stefania.pighin@unitn.it</a>)
+Dott.ssa STEFANIA PIGHIN (<a href="mailto:stefania.pighin@unitn.it" class="email">stefania.pighin@unitn.it</a>)
 </p>
 <p style="text-align:right;">
-Prof.ssa KATYA TENTORI (<a href="mailto:katya.tentori@unitn.it">katya.tentori@unitn.it</a>)
+Prof.ssa KATYA TENTORI (<a href="mailto:katya.tentori@unitn.it" class="email">katya.tentori@unitn.it</a>)
 </p>
 </div>
 
@@ -226,7 +247,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).parent().toggleClass('nav-tabs-open')
   });
 });
 </script>
